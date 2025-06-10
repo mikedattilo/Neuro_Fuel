@@ -1,0 +1,15 @@
+This is a text file that explains the function of each python script file
+
+I. variables.env
+    - This file has the Groq API key pasted, which is directly pulled in generate_text_script.py
+
+II. generate_text_script.py
+    - This file pulls the API key from variables.env
+    - It then initializes the Groq client using that API key
+    - Creates generate_text_script()
+        a. This function has no parameters
+        b. Has a rotation of topics depending on the day of the week
+        c. Based on the days topic, Groq will create a short (<80 words) script
+
+III. 
+

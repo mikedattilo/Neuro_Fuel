@@ -31,9 +31,6 @@ API keys are loaded securely from a .env file.
 
 **Quickstart**
 Set your API keys in variables.env (GROQ_API_KEY, OPENAI_API_KEY, PEXELS_API_KEY).
-Run the pipeline:
 
-bash
-Copy code
-python run_all_content.py
+**Run the pipeline:** python run_all_content.py
 Find your video in the video_projects/<YYYY-MM-DD>/ directory.
